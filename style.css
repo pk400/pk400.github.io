@@ -1,0 +1,38 @@
+body, header, ul, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	width: 800px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+header ul {
+	list-style-type: none;
+}
+
+header li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+header li:first-child {
+	margin: 0;
+}
+
+header li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+header li a:hover {
+	color: maroon;
+}
